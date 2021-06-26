@@ -31,7 +31,7 @@ def find_metric(metric):
       if metric in widget_definition_string:
         widget_title = widget['definition'].get('title', '<unknown>')
         dashboard_title = dashboard.get('title', '<unknown>')
-        print(f"Found {metric} in the definition of widget {widget_title} in dashboard {dashboard_title}")
+        print(f"Found `{metric}` in the definition of widget `{widget_title}` in dashboard `{dashboard_title}`")
 
 if __name__ == '__main__':
   find_metric()
