@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "datadog-dashboard-metric-finder"
+version = "0.0.1"
+description = "datadog-dashboard-metric-finder"
+authors = []
+
+[tool.poetry.dependencies]
+python = "~3.9.5"
+datadog = "*"
+click = "~8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
